@@ -1,0 +1,15 @@
+.header__lang{
+    width: 77px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;  
+    text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang{
+       width: 62px;  
+    }
+}
