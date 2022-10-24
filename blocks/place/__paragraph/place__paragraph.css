@@ -9,11 +9,12 @@
     width: 484px;
     grid-area: paragraph;
     margin-top: 48px;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .place__paragraph {
-        max-width: 456px;
+        max-width: 456px;  
     }
 }
 
@@ -33,6 +34,5 @@
         line-height: 26px;
         max-width: 100%;
         margin-top: 0;
-        
     }
 }
