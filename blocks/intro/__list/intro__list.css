@@ -1,5 +1,5 @@
 .intro__list {
-    width: 690px;
+    max-width: 690px;
     height: 90px;
     font-family: Inter;
     font-size: 12px;
@@ -9,19 +9,18 @@
     text-align: left;
     color: #FFFFFF;
     list-style-type: none;
-    margin: 0 0 0 0;
+    margin: 40px 0 0 0;
     padding: 0 0 0 0;
 }
 
 @media screen and (max-width: 768px){
     .intro__list{
-        width: 720px;
+        max-width: 720px;
     }
 }
 
 @media screen and (max-width: 320px){
     .intro__list{
-        height: 90px;
-        width: 288px;     
+        max-width: 288px;     
     }
 }

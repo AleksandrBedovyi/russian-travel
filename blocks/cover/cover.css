@@ -1,5 +1,5 @@
 .cover {
-    width: 1184px;
+    max-width: 1184px;
     height: 740px;
     display: flex;
     flex-direction: column;
@@ -7,6 +7,9 @@
     background-image: url(../../images/cover/cover_background.png);
     position: relative;
     z-index: 1;
+    margin-left: 48px;
+    margin-right: 48px;
+
 }
 
 .cover::after {
@@ -31,12 +34,13 @@
         max-width: 1024px;
         height: 640px;
         background-size: 1024px 640px;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover{
-        width: 768px;
+        max-width: 768px;
         height: 480px;
         background-size: 768px 480px;
     }
@@ -44,7 +48,7 @@
 
 @media screen and (max-width: 320px) {
     .cover{
-        width: 320px;
+        max-width: 320px;
         height: 200px;
         background-size: 320px 200px;
     }

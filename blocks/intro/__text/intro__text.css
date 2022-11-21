@@ -1,20 +1,21 @@
 .intro__text {
-    width: 690px;
+    max-width: 690px;
     height: 208px;
     border-radius: nullpx;
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    font-family: Inter;
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
-    margin: 40px 0 33px 0;
+    /*margin: 40px 0 33px 0;*/
 }
 
 @media screen and (max-width: 768px) {
     .intro__text{
-        width: 720px;
+        max-width: 720px;
     }
 }
 
@@ -22,6 +23,6 @@
     .intro__text{
         height: 520px;
         max-width: 288px;
-        margin: 40px 0 34px 0;
+        /*margin: 40px 0 34px 0;*/
     }
 }
