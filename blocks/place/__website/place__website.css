@@ -3,19 +3,21 @@
     max-height: 46px;
     max-width: 456px;
     align-self: end;
+    margin-bottom: 48px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .place__website {
         max-width: 352px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place__website {
         max-width: 288px;
         align-self: baseline;
         margin-right: 16px;
         margin-left: 16px;
+        margin: 0;
     }
 }

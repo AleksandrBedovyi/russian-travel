@@ -8,7 +8,7 @@
     margin: 0 48px 92px 48px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .photo-grid{
         max-width: 928px;
         height: 942px;
@@ -18,20 +18,21 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .photo-grid{
         max-width: 720px;
         height: 1664px;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(6,1fr);
         margin: 0 24px 88px 24px;
+        gap: 16px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .photo-grid{
         height: 2724px;
-        width: 288px;
+        max-width: 288px;
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(12,1fr);
         margin: 0 16px 64px 16px;

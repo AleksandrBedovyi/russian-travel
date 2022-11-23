@@ -5,23 +5,23 @@
     display: inline-block;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .intro{
         margin: 0px 286px 92px 48px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .intro{
       max-width: 720px;
       margin: 0 24px 88px 24px;  
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .intro{
       max-width: 288px;
       height: 754px;
-      margin: 0 16px 88px 16px;  
+      margin: 0 16px 64px 16px;  
     }
 }

@@ -6,10 +6,13 @@
     justify-content: space-between;
     list-style-type: none;
     text-decoration: none;
+    padding: 0;
+    margin: 46px 0 0 0;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .header__lang{
-       width: 62px;  
+       width: 62px; 
+       margin-top: 30px;
     }
 }

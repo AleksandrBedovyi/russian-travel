@@ -11,15 +11,16 @@
   margin-bottom: 80px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
 .place{
-  min-height: 564px;
-  max-height: 640px;
+  /*min-height: 564px;
+  max-height: 640px;*/
   column-gap: 32px;
+  margin-bottom: 76px;
 }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
 .place{
   min-height: 434px;
   column-gap: 28px;
@@ -27,12 +28,12 @@
 }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .place{
     min-height: 964px;
     max-height: 1024px;
-   grid-template-columns: repeat(1, 100%);
-   grid-template-areas: 
+    grid-template-columns: repeat(1, 100%);
+    grid-template-areas: 
                     "title"
                     "website"
                     "img" 
