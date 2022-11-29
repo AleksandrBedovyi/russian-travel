@@ -1,6 +1,6 @@
-.header__lang{
+.header__lang {
     width: 77px;
-    height: 28px;
+    min-height: 28px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -10,9 +10,9 @@
     margin: 46px 0 0 0;
 }
 
-@media screen and (max-width: 767px){
-    .header__lang{
-       width: 62px;
-       margin-top: 30px;
+@media screen and (max-width: 767px) {
+    .header__lang {
+        max-width: 62px;
+        margin-top: 30px;
     }
 }

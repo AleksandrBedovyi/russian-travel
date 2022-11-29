@@ -1,6 +1,6 @@
 .header__lang-en {
     color: white;
-    height: 29px;
+    min-height: 29px;
     max-width: 28px;
     font-family: Inter;
     font-size: 24px;
@@ -8,11 +8,11 @@
     line-height: 28px;
     text-align: right;
     margin: 0;
-   
+
 }
 
 @media screen and (max-width: 767px) {
-    .header__lang-en{
+    .header__lang-en {
         font-family: Inter;
         font-size: 18px;
         line-height: 20px;

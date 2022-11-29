@@ -8,31 +8,31 @@
     color: white;
     margin: 0;
     max-width: 460px;
-    max-height: 152px;
+    min-height: 152px;
     align-self: end;
 }
 
 @media screen and (max-width: 1279px) {
     .place__title {
         max-width: 440px;
-    }  
+    }
 }
 
 @media screen and (max-width: 1023px) {
-    .place__title{
+    .place__title {
         max-width: 340px;
-        max-height: 46px;
+        min-height: 46px;
         font-size: 42px;
-    }   
+    }
 }
 
 @media screen and (max-width: 767px) {
-    .place__title{
+    .place__title {
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
         align-self: baseline;
         margin-right: 16px;
         margin-left: 16px;
-    }   
+    }
 }

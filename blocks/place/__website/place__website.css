@@ -1,6 +1,5 @@
-
 .place__website {
-    max-height: 46px;
+    min-height: 46px;
     max-width: 456px;
     align-self: end;
     margin-bottom: 48px;

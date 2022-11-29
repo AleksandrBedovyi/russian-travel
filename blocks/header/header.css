@@ -1,31 +1,29 @@
 .header {
-        max-width: 1184px;
-        min-height: 52px;
-        margin: 0 48px 0 48px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+    max-width: 1184px;
+    min-height: 52px;
+    margin: 0 48px 0 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 @media screen and (max-width:1279px) {
     .header {
-        max-width: 928px; 
+        max-width: 928px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .header{
+    .header {
         max-width: 720px;
         margin: 0 24px 0 24px;
     }
-    
 }
 
 @media screen and (max-width: 767px) {
-    .header{
+    .header {
         max-width: 288px;
         min-height: 42px;
         margin: 0 16px 0 16px;
     }
-    
 }

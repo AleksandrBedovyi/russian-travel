@@ -1,27 +1,27 @@
 .intro {
     max-width: 690px;
-    height: 429px;
+    min-height: 429px;
     margin: 0px 442px 92px 148px;
     display: inline-block;
 }
 
 @media screen and (max-width: 1279px) {
-    .intro{
+    .intro {
         margin: 0px 286px 92px 48px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .intro{
-      max-width: 720px;
-      margin: 0 24px 88px 24px;  
+    .intro {
+        max-width: 720px;
+        margin: 0 24px 88px 24px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .intro{
-      max-width: 288px;
-      height: 754px;
-      margin: 0 16px 64px 16px;  
+    .intro {
+        max-width: 288px;
+        min-height: 754px;
+        margin: 0 16px 64px 16px;
     }
 }

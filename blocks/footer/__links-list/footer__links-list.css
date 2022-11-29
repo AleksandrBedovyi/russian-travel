@@ -2,7 +2,7 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin: 0 0 24px 0;
     padding: 0;
     width: 465px;
     justify-content: space-between;
@@ -15,12 +15,13 @@
 }
 
 @media screen and (max-width: 767px) {
-    .footer__links-list{
-        width: 74px;
+    .footer__links-list {
+        max-width: 74px;
         font-size: 24px;
         line-height: 24px;
         flex-direction: column;
         justify-content: space-between;
-        height: 248px;
+        min-height: 248px;
+        margin: 0;
     }
 }
