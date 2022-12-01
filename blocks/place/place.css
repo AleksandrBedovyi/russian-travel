@@ -5,9 +5,6 @@
   grid-template-areas:
     "title website"
     "img paragraph";
-  /*width: 100%;
-  min-height: 584px;
-  max-height: 660px;*/
   margin-bottom: 80px;
 }
 
@@ -20,8 +17,6 @@
 
 @media screen and (max-width: 1023px) {
   .place {
-    /*min-height: 434px;
-    max-height: 434px;*/
     column-gap: 28px;
     margin-bottom: 73px;
   }
@@ -29,10 +24,7 @@
 
 @media screen and (max-width: 767px) {
   .place {
-    /*min-height: 964px;
-    max-height: 1024px;*/
     grid-template-columns: repeat(1, 100%);
-    /*grid-template-columns: 1fr;*/
     grid-template-areas:
       "title"
       "website"
