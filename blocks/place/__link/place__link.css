@@ -1,3 +1,7 @@
+.place__link {
+    font-size: 18px;
+}
+
 .place__link:hover {
     opacity: 0.8;
 }
