@@ -8,11 +8,11 @@
    margin: 0;
 }
 
-.header__lang:hover{
+.header__lang:hover {
    opacity: 0.8;
 }
 
-.header__lang:last-child{
+.header__lang:last-child {
    margin-left: 18px;
 }
 
