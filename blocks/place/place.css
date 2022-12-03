@@ -20,6 +20,14 @@
     column-gap: 28px;
     margin-bottom: 73px;
   }
+
+  .place:last-child {
+    margin-bottom: 0;
+  }
+
+  .place:nth-of-type(4) {
+    margin-bottom: 72px;
+  }
 }
 
 @media screen and (max-width: 767px) {

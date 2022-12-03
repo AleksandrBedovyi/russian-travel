@@ -7,7 +7,7 @@
     text-align: left;
     color: #FFFFFF;
     list-style-type: none;
-    margin: 40px 0 0 0;
+    margin: 33px 0 0 0;
     padding: 0 0 0 0;
 }
 
@@ -20,5 +20,6 @@
 @media screen and (max-width: 767px) {
     .intro__list {
         max-width: 288px;
+        margin-top: 34px;
     }
 }
