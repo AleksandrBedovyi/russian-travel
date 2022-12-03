@@ -5,3 +5,7 @@
 Здесь  проект о путешествии по России.
 Стильно. Модно. Молодежно. 
 Адаптив и прочие прелести. 
+
+
+ Опубликовано на github pages
+ https://aleksandrbedovyi.github.io/russian-travel/

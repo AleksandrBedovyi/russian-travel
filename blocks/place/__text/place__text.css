@@ -1,3 +1,19 @@
 .place__text {
     margin: 0;
 }
+
+.place__text:first-child {
+    margin-bottom: 27px;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__text:first-child {
+        margin-bottom: 26px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__text:first-child {
+        margin-bottom: 25px;
+    }
+}

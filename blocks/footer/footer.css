@@ -1,5 +1,4 @@
 .footer {
-        min-height: 18px;
         max-width: 1184px;
         margin: 92px 48px 0 48px;
         display: flex;
@@ -22,7 +21,6 @@
 
 @media screen and (max-width: 767px) {
         .footer {
-                min-height: 310px;
                 max-width: 186px;
                 margin: 64px 118px 0 16px;
                 flex-direction: column;

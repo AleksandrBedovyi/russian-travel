@@ -1,0 +1,6 @@
+.header__link {
+    text-decoration: none;
+}
+.header__link:active{
+    text-decoration: underline;
+}

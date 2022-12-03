@@ -6,21 +6,25 @@
 @media screen and (max-width: 1279px) {
     .places {
         max-width: 928px;
-        margin: 0 48px 92px 48px;
+        margin-right: 48px;
+        margin-left: 48px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .places {
         max-width: 720px;
-        margin: 0 24px 90px 24px;
+        margin-right: 24px;
+        margin-bottom: 90px;
+        margin-left: 24px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .places {
         max-width: 320px;
-        margin: 0px 0px 66px 0px;
-
+        margin-right: 0px;
+        margin-bottom: 66px;
+        margin-left: 0px;
     }
 }
