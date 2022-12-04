@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
   column-gap: 40px;
   grid-template-areas:
     "title website"
